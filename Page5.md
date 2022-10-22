@@ -1,13 +1,30 @@
-
-function changesize(size)
-{
-if(size == 0)
-    document.getElementById("youtubevideo").width="440";
-    document.getElementById("youtubevideo").height="285";
-if(size == 1)
-    document.getElementById("youtubevideo").width="500";
-    document.getElementById("youtubevideo").height="300";
-if(size == 2)
-    document.getElementById("youtubevideo").width="560";
-    document.getElementById("youtubevideo").height="315";
-}
+``
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Robby Criswell</title>
+        <link rel="stylesheet" href="Javascript2.css">
+    </head>
+    <a class="button" href="Javascript2.html">Back</a><br>
+    <iframe 
+        id="youtubevideo"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/u1N_mUxINCc?autoplay">
+    </iframe><br>
+    <body>
+        <button class="button1" onclick="changesource(0)">Video 1</button>
+        The video is a meme recap of the Belgian grand prix (f1).<br>
+        <button class="button1" onclick="changesource(1)">Video 2</button>
+        The video is a meme recap of the French grand prix (f1)<br>
+        <button class="button1" onclick="changesource(2)">Video 3</button>
+        The video is a meme recap of the Austrian grand prix (f1)<br>
+        <button class="button1" onclick="changesource(3)">Video 4</button>
+        The video is a meme recap of the British grand prix (f1)<br>
+        <script src="Javascript2.js"></script>
+    </body>
+``
+[[Previous]](Page4.md)
