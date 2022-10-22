@@ -1,4 +1,4 @@
-<h1>Robby Criswell</h1> <br>
+Robby Criswell <br>
 [Page 1](Page1.md) <br>
 [Page 2](Page2.md) <br>
 [Page 3](Page3.md) <br>
